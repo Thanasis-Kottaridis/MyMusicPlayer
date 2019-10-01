@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/artistTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artist:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"/>
+    <EditText
+        android:id="@+id/ArtistEditText"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/artistTextView"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+    android:id="@+id/SongKindTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Music Gender:"
+    android:textStyle="bold"
+    android:textSize="18dp"
+    android:layout_below="@+id/ArtistEditText"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:fontFamily="cursive"/>
+    <Spinner
+        android:id="@+id/SongKindSpinner"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artistTextView"
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ArtistEditText" />
+
+    <TextView
+        android:id="@+id/yearReleaseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year Release:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/SongKindSpinner"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"/>
+
+    <EditText
+        android:id="@+id/yearReleaseEditText"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SongKindSpinner"
+        android:layout_alignLeft="@+id/artistTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/songLanguageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Song Language:"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_below="@+id/yearReleaseEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="cursive"/>
+    <EditText
+        android:id="@+id/songLanguageEditText"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artistTextView"
+        android:layout_marginLeft="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/yearReleaseEditText"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>

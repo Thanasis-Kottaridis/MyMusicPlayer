@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyMusicPlayer</string>
+    <string name="navigation_drawer_open">Open navigation open</string>
+    <string name="navigation_drawer_close">Open navigation close</string>
+
+    <array name="musicPreferences">
+        <item>Pop</item>
+        <item>Rock</item>
+        <item>HipHop</item>
+        <item>RnB</item>
+        <item>Trap</item>
+    </array>
+</resources>

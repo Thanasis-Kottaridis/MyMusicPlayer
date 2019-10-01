@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/NavHeaderImage"
+        android:layout_width="103dp"
+        android:layout_height="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/super_sound_logo" />
+
+    <TextView
+        android:id="@+id/SuperSoundTitle_LogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SuperSoundLogo_LogIn"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorText"
+        android:text="MyMusicPlayer "
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

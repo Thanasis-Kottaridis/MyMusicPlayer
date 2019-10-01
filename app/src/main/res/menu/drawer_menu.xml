@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="General">
+        <menu>
+            <group>
+                <item android:id="@+id/navFavorites"
+                    android:icon="@drawable/ic_favorite"
+                    android:title="Favorite"/>
+                <item android:id="@+id/navMusicLibrary"
+                    android:icon="@drawable/ic_music_library"
+                    android:title="My Music"/>
+                <item android:id="@+id/navPlaylist"
+                    android:icon="@drawable/ic_playlist"
+                    android:title="My Playlists"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/navAboutUs"
+                android:title="About Us"/>
+            <item android:id="@+id/navPrivacyPolicy"
+                android:title="Privacy Policy" />
+        </menu>
+    </item>
+
+
+</menu>
